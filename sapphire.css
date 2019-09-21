@@ -1,0 +1,346 @@
+@charset "utf-8";
+
+html{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;  
+    width: 1330px;
+}
+body{
+    font-family: "Segoe UI";
+    width: 100%;
+    height: 3760px;
+}
+main{
+    background-color: #F5E8E8;
+    height: 3000px;
+    width: 100%;
+}
+.section-1{
+    height: 540px;
+    background-color: #0E1E54;
+}
+a{  
+	text-decoration: none; 
+	color: #3DACAD;
+	}
+a:hover, a:focus, a:active{ 
+	text-decoration: underline; 
+	color: red;
+}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+    }
+a:link a:hover, a:focus, a:active #go-home{
+    color: red; 
+}
+nav ul li{
+    color: white;
+    padding-right: 300px;
+    float: right;
+    margin-left: -145px;
+    margin-top: 20px;
+    display: inline;
+    list-style: none;
+    font-size: 20px;
+    /* border: 1px solid white; */
+    margin-left:-300px;
+}
+.our-services-header{
+    position: relative;
+    left: 29px;
+}
+.contact-us-header{
+    position: relative;
+    left: 22px;
+}
+.about-us-header{
+    position: relative;
+    left: 15px;
+}
+.home-header{
+    position: relative;
+    left: 8px;
+}
+.sapphire{
+    color:#3DACAD;
+    width: 321px;
+    height: 106px;
+    font-size: 30px;
+    position: relative;
+    float: right;
+    margin-top: 80px;
+    margin-right: -45px;
+    
+}
+.acedemy{
+    color:#3DACAD;
+    font-size: 32px;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 690px;
+}
+.welcome{
+    color:#FFCA4F;
+    font-size: 27px;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 692px;
+}
+#image-sapphire{
+    border-radius: 100px;
+    background-color: #0E1E54;
+    position: relative;
+    left: 140px;
+    top: 80px;
+}
+.middles-stuffs{
+    position: relative;
+    top: 540px;
+}
+#image-girls{
+    position: absolute;
+    width: 1330px;
+}
+.about-us{
+    color: #FFCA4F;
+    width: 134px;
+    height: 112px;
+    text-align: center;
+    position: relative;
+    left: 633px;
+    top: 20px;
+}
+.about-us-text{
+    color:#090E2D;
+    font-size: 20px;
+    width: 590px;
+    height: 220px;
+    text-align: center;
+    position: relative;
+    top:-45px;
+    left: 410px;
+}
+.mission-statement{
+    color:#FFCA4F;
+    font-size: 20px;
+    width: 354px;
+    height: 112px;
+    text-align: center;
+    position: relative;
+    left: 525px;
+    top: -60px;
+}
+.mission-statement-text{
+    color:#090E2D;
+    font-size: 20px;
+    width: 620px;
+    height: 160px;
+    text-align: center;
+    position: relative;
+    top:-120px;
+    left: 385px;
+}
+.pre{
+    background-color:#090E2D;
+    width: 327px;
+    height: 473px;
+    border-radius: 25px;
+    margin-left: 186px;
+    margin-top: 500px;
+}
+#image-pre{
+    border-radius: 25px;
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.pre-school{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: 112px;
+    width: 145px;
+    height: 40px;
+}
+.pre-school-text{
+    color: white;
+    text-align: center;
+    width: 324px;
+    height: 120px;
+    position: relative;
+    top: 50px;
+    left: -2px;
+    /* margin-top: 200px; */
+    /* margin-left: 45px; */
+}
+.primary{
+    background-color:#090E2D;
+    width: 327px;
+    height: 473px;
+    border-radius: 25px;
+    margin-left: 526px;
+    margin-top: -473px;
+}
+#image-primary{
+    border-radius: 25px;
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.primary-school{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 204px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    left: 88px;
+   
+}
+.primary-school-text{
+    color: white;
+    text-align: center;
+    width: 324px;
+    height: 120px;
+    position: relative;
+    top: 50px;
+    left: -2px;
+}
+.college{
+    background-color:#090E2D;
+    width: 327px;
+    height: 473px;
+    border-radius: 25px; 
+    margin-left: 866px; 
+    margin-top: -473px; 
+}
+#image-college{
+    border-radius: 25px;
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.college-school{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 108px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    left: 122px;
+}
+.college-school-text{
+    color: white;
+    text-align: center;
+    width: 324px;
+    height: 120px;
+    position: relative;
+    top: 50px;
+    left: -2px;
+}
+.latest-news{
+    margin-left: 136px;
+    font-size: 25px;
+    color: #FFCA4F;
+    margin-top: 120px;
+}
+.latest-news-list{
+    margin-left: 136px;
+}
+.ul-news{
+    font-size: 20px;
+    color:#45BDB7;
+    list-style-image: url(images/Ellipse-1.png)
+}
+.inter-news, .sapphire-news, .prom-news, .leadership-news{
+    margin-left: 30px;
+    position: relative;
+    top: -10px;
+}
+.FACILITIES #go-home{
+    align-content: center;
+}
+#go-home{
+    color: #0E1E54;
+    opacity: 0.5;
+    font-size:20px;
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+.our-facilities{
+    color:#707070;
+    text-align: center;
+    font-size: 30px;
+    font: 'SemiBold';
+    /* position: absolute; */
+}
+.list-facilities{
+    font-size: 20px;
+    color: #707070;
+    text-align: center;
+}
+footer{
+    color: #707070;
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    
+}
+.footer{
+    color:white;
+    height: 200px;
+    width: 1330;
+    border: 3px solid #F5E8E8;
+}
+.contact-us{
+    margin-top: 20px;
+    margin-left: 136px;
+    width: 352px;
+    
+}
+#contact-us-footer{
+    font-size: 25px;
+}
+.email{
+    font: size 20;
+}
+.subscribe{
+    margin-left: 470px;
+    margin-top: -235px;
+    position: relative;
+    top: 92px;
+}
+.subscribe-footer{
+    font-size: 25px;
+}
+#subscribe{
+    height: 40px;
+    width: 240px;
+    border-radius:50px;
+}
+button{
+    background-color: blue;
+    height: 40px;
+    width: 80px;
+    border-radius:50px;
+}
+.our-social-media{
+    width: 352px;
+    margin-left: 900px;
+    position: relative;
+    top: -30px;
+}
+.our-social-media-footer{
+    font-size: 25px;
+}
+#images-social-media{
+    margin-left: 60px;
+}
